@@ -32,7 +32,7 @@ void print(node*head)
 
 
 node* reverseRecursive(node* head) {
-	// BASE CASE
+	// BASE CASE.
 	if (head == NULL or head->next == NULL) {
 		return head;
 	}
