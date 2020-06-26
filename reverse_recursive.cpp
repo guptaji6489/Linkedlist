@@ -4,7 +4,7 @@ using namespace std;
 class node
 {
 public:
-    int data;
+    int 
     node* next;
 
     node(int d)
