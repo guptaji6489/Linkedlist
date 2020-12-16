@@ -22,7 +22,7 @@ class SinglyLinkedList {
             this->head =  NULL;
             this->tail = NULL;
         }
-
+//insert
         void insert_node(int node_data) {
             SinglyLinkedListNode* node = new SinglyLinkedListNode(node_data);
 
