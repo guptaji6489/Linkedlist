@@ -35,7 +35,7 @@ class SinglyLinkedList {
             this->tail = node;
         }
 };
-
+//print
 void print_singly_linked_list(SinglyLinkedListNode* node, string sep, ofstream& fout) {
     while (node) {
         fout << node->data;
